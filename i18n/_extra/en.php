@@ -1,0 +1,155 @@
+<?php
+// Labieno 39 — extra strings: legal pages, cookie banner, neighbourhood guide, landing pages (en)
+return [
+  'meta' => [
+    'privacy' => [
+      'title' => 'Privacy policy',
+      'description' => 'How we process your data when you browse the site and when you make a booking.',
+    ],
+    'cookies' => [
+      'title' => 'Cookie policy',
+      'description' => 'Information about the cookies used on this site and how to manage your preferences.',
+    ],
+  ],
+  'footer' => [
+    'privacy' => 'Privacy',
+    'cookies' => 'Cookies',
+    'manage_cookies' => 'Manage cookies',
+  ],
+  'cookies' => [
+    'banner_title' => 'Cookies',
+    'banner_text' => 'We use essential cookies required for the website to work and stay secure. Only with your consent we may use optional analytics cookies to measure visits and improve content. You can accept, reject non-essential cookies or customise your preferences at any time.',
+    'banner_accept' => 'Accept all',
+    'banner_reject' => 'Reject non-essential',
+    'banner_settings' => 'Customise',
+    'modal_title' => 'Cookie preferences',
+    'modal_intro' => 'Choose which optional cookies to allow. Essential cookies are always enabled because they are required for the site to function. You can change or withdraw consent at any time from the footer link.',
+    'necessary_title' => 'Essential',
+    'necessary_desc' => 'Required for the site to work (e.g. security, language, session and saving your preferences) and cannot be disabled.',
+    'analytics_title' => 'Analytics',
+    'analytics_desc' => 'Help us understand, in aggregated form, how the site is used and improve performance and content. Optional. If disabled, they will not be set.',
+    'always_on' => 'Always on',
+    'save' => 'Save preferences',
+    'cancel' => 'Cancel',
+    'link_privacy' => 'Privacy',
+    'link_cookies' => 'Cookie policy',
+  ],
+  'legal' => [
+    'privacy_pill' => 'Privacy',
+    'privacy_title' => 'Privacy policy',
+    'privacy_lead' => 'A clear explanation of how we collect and use personal data (contacts and bookings).',
+    'cookies_pill' => 'Cookies',
+    'cookies_title' => 'Cookie policy',
+    'cookies_lead' => 'Which cookies we use and how to manage your preferences.',
+    'cta_contact' => 'Contact us',
+    'cta_cookies' => 'Cookie policy',
+    'cta_privacy' => 'Privacy',
+  ],
+  'reviews' => [
+    'section_title' => 'Verified reviews',
+    'section_lead' => 'Reviews are published only from guests who actually stayed at {site}.',
+    'avg_label' => 'Average rating',
+    'count_label' => 'reviews',
+    'pending_note' => 'Reviews are published after verification.',
+    'no_reviews_yet' => 'No reviews have been published yet. After checkout you will receive a personal link to leave your review.',
+    'page_title' => 'Leave a review',
+    'page_lead' => 'This link is personal and valid only for guests after checkout.',
+    'form_name' => 'Display name',
+    'form_rating' => 'Rating',
+    'form_body' => 'Your review',
+    'form_submit' => 'Submit review',
+    'thanks_title' => 'Thank you!',
+    'thanks_text' => 'We received your review. It will be published after verification.',
+    'invalid_token' => 'Invalid or expired link.',
+    'too_early' => 'You can leave your review after the end of your stay.',
+    'already_submitted' => 'You have already submitted a review for this stay. Thank you!',
+  ],
+  'emails' => [
+    'review_invite_subject' => 'How was your stay at {site}? Leave a verified review',
+    'review_invite_body' => "Hi {name},\n\nThank you for staying at {site}.\n\nYou can leave a verified review using this personal link:\n{link}\n\nYour review will be published after verification.\n\nThanks,\n{site}",
+  ],
+  'pricematch' => [
+    'title' => 'Best price guaranteed',
+    'text' => 'Found this apartment cheaper on Booking for the same dates? Send us a screenshot by WhatsApp or email and we will give you 10% off that price.',
+    'cta_whatsapp' => 'Send on WhatsApp',
+    'cta_email' => 'Send by email',
+    'whatsapp_text' => 'Hi! I found Labieno 39 cheaper on Booking. Here is the screenshot to get 10% off.',
+    'email_subject' => 'Lower price found on Booking',
+  ],
+  'neighborhood_guide' => [
+    'title' => 'Cinecittà & Tuscolano: neighbourhood guide',
+    'intro' => 'Labieno 39 is in Cinecittà, in south-east Rome along Via Tuscolana: a residential area with Metro A on the doorstep, the film studios one stop away and the Parco degli Acquedotti close by. Here is what to know before you arrive.',
+    'sections' => [
+      [
+        'h' => 'Piazza di Cinecittà and Viale Tito Labieno',
+        'html' => 'Viale Tito Labieno starts at <strong>Piazza di Cinecittà</strong>, where Via Tuscolana meets the avenue and where you find <strong>Subaugusta</strong> station on Metro A. It is a neighbourhood of 1960s and ’70s apartment blocks, families and local shops: bakeries, cafés, greengrocers, supermarkets and pharmacies are all within walking distance, and the <strong>Cinecittà Due</strong> shopping centre is a few minutes away. It is not a tourist area, and that is the point: you live like a Roman and the evenings are quiet.',
+      ],
+      [
+        'h' => 'Cinecittà: the home of Italian cinema',
+        'html' => 'The <strong>Cinecittà</strong> studios, opened in 1937, are just one metro stop away (Cinecittà station). <em>Ben-Hur</em>, <em>La Dolce Vita</em> and many Fellini films were made here; Fellini worked in the legendary Studio 5. The visitor route <strong>Cinecittà si Mostra</strong> and the <strong>MIAC</strong>, the Italian Museum of Audiovisual and Cinema, are at Via Tuscolana 1055 and open every day except Tuesday: check times and tickets on the official website before you go.',
+      ],
+      [
+        'h' => 'Parco degli Acquedotti',
+        'html' => 'About 20 minutes on foot (or one metro stop to Giulio Agricola) is the <strong>Parco degli Acquedotti</strong>, part of the Appian Way Regional Park: some 240 hectares of meadows crossed by the arches of the <strong>Aqua Claudia</strong> (1st century AD) and the <strong>Acqua Felice</strong> (late 16th century). This is where <em>La Dolce Vita</em> opens, with a statue of Christ flown by helicopter along the arches, and it is one of the locations of <em>The Great Beauty</em>. The best time is sunset.',
+      ],
+      [
+        'h' => 'Quadraro: street art and memory',
+        'html' => 'Four metro stops towards the centre, at <strong>Porta Furba-Quadraro</strong>, is old Quadraro, with the murals of <strong>M.U.Ro. – Museo Urban di Roma</strong>, a project started in 2010 by the artist David “Diavù” Vecchiato. Start from <strong>Via dei Lentuli</strong>. The district has a powerful history: the Nazis called it a “wasps’ nest” because of its resistance, and on <strong>17 April 1944</strong> almost a thousand men were rounded up and deported. A mural by Lucamaleonte on Via del Monte del Grano remembers it.',
+      ],
+      [
+        'h' => 'Getting around: Metro A',
+        'html' => '<strong>Subaugusta</strong> station is a <strong>3-minute walk</strong> away. On Metro A towards Battistini you reach, <strong>with no changes</strong>, Termini (about 20 minutes), Repubblica, Barberini, the <strong>Spanish Steps</strong> (Spagna), Flaminio (Piazza del Popolo) and <strong>Ottaviano</strong>, a short walk from St Peter’s and the Vatican Museums. For the <strong>Colosseum</strong>, change at San Giovanni to Metro C or at Termini to Metro B: about half an hour in total. Towards Anagnina, one stop takes you to the Cinecittà studios.',
+      ],
+      [
+        'h' => 'Getting here from the airports and Termini',
+        'html' => '<strong>From Fiumicino:</strong> the Leonardo Express train to Termini (about 32 minutes), then Metro A towards Anagnina to Subaugusta. Alternatively, the FL1 regional train to Roma Tuscolana and Metro A from Ponte Lungo. A taxi takes 45–60 minutes and is metered (the fixed airport fare only applies inside the Aurelian Walls).<br><strong>From Ciampino:</strong> ATAC bus 520 to Cinecittà metro station (about 30 minutes), then one stop on Metro A towards Battistini to Subaugusta.<br><strong>From Termini:</strong> Metro A towards Anagnina, no changes, about 20 minutes to Subaugusta.',
+      ],
+    ],
+  ],
+  'v2' => [
+    'title' => 'From your door to the centre, on a single line',
+    'start' => 'Your home in Rome',
+    'walk' => '3 minutes on foot',
+    'termini' => 'About 20 minutes, no changes',
+    'center' => 'The Spanish Steps and St Peter’s on the same line',
+    'place' => 'Cinecittà, Rome',
+    'skip' => 'Skip to content',
+    'photos' => 'Photos of the apartment',
+  ],
+  'cinecitta' => [
+    'meta_title' => 'Accommodation near Cinecittà Studios: apartment for crews, actors and visitors',
+    'meta_desc' => 'Apartment for 4 guests one metro stop from the Cinecittà studios and the MIAC: terrace, kitchen, Wi‑Fi and stays of several weeks. Book direct with the owner.',
+    'nav' => 'Near Cinecittà Studios',
+    'hero_title' => 'An apartment near the Cinecittà studios',
+    'hero_lead' => 'For people working or studying at Cinecittà, crews on a film or series shoot, and visitors to the sets and the MIAC: one metro stop away, with a terrace and a kitchen.',
+    'cta_book' => 'Check availability',
+    'cta_whatsapp' => 'Message us on WhatsApp',
+    'whatsapp_text' => 'Hi! I’m working at / visiting Cinecittà. I’d like some information about Labieno 39.',
+    'sections' => [
+      [
+        'h' => 'Who it is for',
+        'html' => 'For <strong>crews, actors, extras and technicians</strong> working at the Cinecittà studios, students on film courses and workshops, people attending castings and events, and anyone who wants to visit <strong>Cinecittà si Mostra</strong> and the <strong>MIAC</strong> at their own pace, without crossing all of Rome.',
+      ],
+      [
+        'h' => 'Getting to the studios',
+        'html' => 'From <strong>Subaugusta</strong> station, 3 minutes from the apartment, take <strong>Metro A towards Anagnina</strong>: the next stop is <strong>Cinecittà</strong>, next to the studio entrance at Via Tuscolana 1055. On foot along Via Tuscolana it takes about 15 minutes. For early call times, it helps to know that the first metro runs at around 5:30 am.',
+      ],
+      [
+        'h' => 'Visiting Cinecittà si Mostra and the MIAC',
+        'html' => 'The visitor route includes the outdoor sets, such as the ancient Rome built for the series <em>Rome</em>, exhibitions on the history of the studios and on Fellini, and the <strong>Italian Museum of Audiovisual and Cinema</strong>. It is usually open every day except Tuesday: check opening hours and guided tours on the official website before you go.',
+      ],
+      [
+        'h' => 'Why an apartment instead of a hotel',
+        'html' => 'A <strong>fully equipped kitchen</strong> so you don’t have to eat out after every long day on set, <strong>Wi‑Fi</strong> for working on scripts and edits, <strong>air conditioning</strong>, a <strong>private terrace</strong> to switch off in the evening and room for <strong>4 people</strong>, so colleagues or family can share the cost. And you deal directly with the owner, on WhatsApp too.',
+      ],
+      [
+        'h' => 'Stays of several weeks',
+        'html' => 'Productions often last weeks or months: send us your dates and we will check availability for a longer stay together, including bookings made by a production company.',
+      ],
+      [
+        'h' => 'The neighbourhood',
+        'html' => 'Around the apartment you have supermarkets, pharmacies, cafés and the Cinecittà Due shopping centre, and Metro A runs with no changes to Termini and the centre. Read the <a href="{neighborhood_url}">neighbourhood guide</a>.',
+      ],
+    ],
+  ],
+];

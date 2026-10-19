@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /data/
+Disallow: /lib/
+Disallow: /partials/
+Disallow: /calendar.php
+Disallow: /calendar.ics
+Disallow: /booking-success
+Disallow: /booking-cancel
+Disallow: /review
+Disallow: /*/booking-success
+Disallow: /*/booking-cancel
+Disallow: /*/review
+
+Allow: /sitemap.xml
+Allow: /llms.txt
+
+Sitemap: https://www.labieno39.it/sitemap.xml

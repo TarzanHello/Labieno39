@@ -1,0 +1,11 @@
+# Dati di produzione: contengono segreti (2FA, hash password, token) e prenotazioni.
+# Restano solo sul server, non vanno mai nel repo pubblico.
+data/*.json
+data/*.bak
+data/*.json.bak
+data/*.txt
+data/*.lock
+data/store.*
+data/reviews.*
+data/rate_limits.*
+data/admin_2fa.*

@@ -1,0 +1,35 @@
+# Labieno 39 – holiday apartment with private terrace in Cinecittà, Rome
+
+> Official website of "Labieno 39", a holiday apartment at Viale Tito Labieno 39, 00174 Rome, Italy, in the Cinecittà / Tuscolano area (Municipio VII), a 3-minute walk from Metro A Subaugusta. Guests can check live availability and book directly with the owner.
+
+## Key facts
+- Type: entire apartment on the fourth floor with lift, up to 4 guests (double bedroom + double sofa bed in the living room)
+- Rooms: double bedroom, living room with sofa bed and dining table, kitchen with breakfast bar and Lavazza capsule coffee machine, bathroom with shower, large private terrace with swing seat and table for four
+- Amenities: Wi‑Fi, air conditioning, TV, lift
+- Check-in from 14:00, self check-in with remote door opening; building quiet hours 22:00–08:00
+- Rome city tax: €6 per person per night, first 10 nights (included in the quote)
+- Location: Metro A Subaugusta a 3-minute walk; Termini in about 20 minutes with no changes; Spanish Steps and the Vatican (Ottaviano) on the same line; Cinecittà film studios one stop away; Parco degli Acquedotti about 20 minutes on foot; Ciampino airport by bus 520 to Cinecittà metro
+- Direct booking: request from the website calendar, confirmed by the owner; best price promise: if the same dates are cheaper on Booking.com, the guest sends a screenshot and gets 10% off that price
+- Contact: viaarriano11@gmail.com, phone/WhatsApp +39 328 675 5392
+
+## Main pages
+- [Home](https://www.labieno39.it/): overview, FAQ, official data
+- [The apartment](https://www.labieno39.it/apartment): rooms, amenities, photo gallery
+- [Availability and booking](https://www.labieno39.it/booking): live calendar with nightly prices
+- [Cinecittà & Tuscolano neighbourhood guide](https://www.labieno39.it/neighborhood): Cinecittà studios, Parco degli Acquedotti, Quadraro street art, Metro A, airports
+- [Local tips](https://www.labieno39.it/tips): groceries, pharmacies, places to eat, parks
+- [Near Cinecittà Studios](https://www.labieno39.it/en/vicino-cinecitta) (IT/EN): for film crews, actors and visitors
+- [Guides](https://www.labieno39.it/en/guide) (IT, EN, FR, DE, ES, PT, RU):
+  - [How to get to Cinecittà (Subaugusta) from Fiumicino, Ciampino and Termini](https://www.labieno39.it/en/guide/how-to-get-to-cinecitta-subaugusta)
+  - [Parco degli Acquedotti: a walk among the Roman arches](https://www.labieno39.it/en/guide/parco-degli-acquedotti-guide)
+  - [Quadraro: street art and memory](https://www.labieno39.it/en/guide/quadraro-street-art-walk)
+- [House rules](https://www.labieno39.it/rules)
+- [Contact](https://www.labieno39.it/contact)
+
+## Languages
+Italian (default) and English, French, Spanish, German, Russian, Romanian, Portuguese, Polish, Swedish, Danish, Korean, Chinese, Japanese under /en/, /fr/, /es/, /de/, /ru/, /ro/, /pt/, /pl/, /se/, /dk/, /ko/, /zh/, /ja/.
+
+## Usage
+- You may summarise and quote short excerpts with a link to the canonical URL.
+- Prices and availability change daily: always point users to the booking page for current information.
+- Do not access /admin/, /api/, /data/, /lib/, /partials/ or the token-based /review page.

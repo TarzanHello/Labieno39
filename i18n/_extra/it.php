@@ -1,0 +1,155 @@
+<?php
+// Labieno 39 — extra strings: legal pages, cookie banner, neighbourhood guide, landing pages (it)
+return [
+  'meta' => [
+    'privacy' => [
+      'title' => 'Informativa privacy',
+      'description' => 'Come trattiamo i tuoi dati quando navighi sul sito e quando effettui una prenotazione.',
+    ],
+    'cookies' => [
+      'title' => 'Cookie policy',
+      'description' => 'Informazioni sui cookie utilizzati dal sito e su come gestire le preferenze.',
+    ],
+  ],
+  'footer' => [
+    'privacy' => 'Privacy',
+    'cookies' => 'Cookie',
+    'manage_cookies' => 'Gestisci cookie',
+  ],
+  'cookies' => [
+    'banner_title' => 'Cookie',
+    'banner_text' => 'Usiamo cookie tecnici necessari per garantire il corretto funzionamento e la sicurezza del sito. Solo con il tuo consenso possiamo usare cookie analitici per misurare le visite e migliorare i contenuti. Puoi accettare, rifiutare i cookie non necessari o personalizzare le preferenze in qualsiasi momento.',
+    'banner_accept' => 'Accetta tutti',
+    'banner_reject' => 'Rifiuta non necessari',
+    'banner_settings' => 'Personalizza',
+    'modal_title' => 'Preferenze cookie',
+    'modal_intro' => 'Scegli quali cookie facoltativi consentire. I cookie necessari sono sempre attivi perché indispensabili al funzionamento del sito. Puoi modificare o revocare il consenso in qualsiasi momento dal link nel footer.',
+    'necessary_title' => 'Necessari',
+    'necessary_desc' => 'Servono al funzionamento del sito (es. sicurezza, lingua, sessione e salvataggio delle preferenze) e non possono essere disattivati.',
+    'analytics_title' => 'Analitici',
+    'analytics_desc' => 'Ci aiutano a capire, in forma aggregata, come viene usato il sito e a migliorarne prestazioni e contenuti. Se disattivati, non verranno installati.',
+    'always_on' => 'Sempre attivi',
+    'save' => 'Salva preferenze',
+    'cancel' => 'Annulla',
+    'link_privacy' => 'Privacy',
+    'link_cookies' => 'Cookie policy',
+  ],
+  'legal' => [
+    'privacy_pill' => 'Privacy',
+    'privacy_title' => 'Informativa privacy',
+    'privacy_lead' => 'Trasparenza su come raccogliamo e utilizziamo i dati personali (contatti e prenotazioni).',
+    'cookies_pill' => 'Cookie',
+    'cookies_title' => 'Cookie policy',
+    'cookies_lead' => 'Quali cookie usiamo e come gestire le preferenze.',
+    'cta_contact' => 'Contattaci',
+    'cta_cookies' => 'Cookie policy',
+    'cta_privacy' => 'Privacy',
+  ],
+  'reviews' => [
+    'section_title' => 'Recensioni verificate',
+    'section_lead' => 'Le recensioni vengono pubblicate solo da ospiti che hanno realmente soggiornato in {site}.',
+    'avg_label' => 'Valutazione media',
+    'count_label' => 'recensioni',
+    'pending_note' => 'Le recensioni vengono pubblicate dopo verifica del soggiorno.',
+    'no_reviews_yet' => 'Non ci sono ancora recensioni pubblicate. Dopo il check-out riceverai un link personale per lasciare la tua recensione.',
+    'page_title' => 'Lascia una recensione',
+    'page_lead' => 'Questo link è personale ed è valido solo per gli ospiti dopo il check-out.',
+    'form_name' => 'Nome visualizzato',
+    'form_rating' => 'Valutazione',
+    'form_body' => 'La tua recensione',
+    'form_submit' => 'Invia recensione',
+    'thanks_title' => 'Grazie!',
+    'thanks_text' => 'Abbiamo ricevuto la tua recensione. Verrà pubblicata dopo verifica.',
+    'invalid_token' => 'Link non valido o scaduto.',
+    'too_early' => 'Potrai lasciare la recensione dopo la fine del soggiorno.',
+    'already_submitted' => 'Hai già inviato una recensione per questo soggiorno. Grazie!',
+  ],
+  'emails' => [
+    'review_invite_subject' => 'Com\'è andato il soggiorno a {site}? Lascia una recensione verificata',
+    'review_invite_body' => "Ciao {name},\n\nGrazie per aver soggiornato a {site}.\n\nPuoi lasciare una recensione verificata usando questo link personale:\n{link}\n\nLa recensione verrà pubblicata dopo verifica del soggiorno.\n\nGrazie,\n{site}",
+  ],
+  'pricematch' => [
+    'title' => 'Prezzo migliore garantito',
+    'text' => 'Hai trovato questo appartamento a un prezzo più basso su Booking per le stesse date? Mandaci lo screenshot via WhatsApp o email: ti facciamo il 10% in meno su quel prezzo.',
+    'cta_whatsapp' => 'Invia su WhatsApp',
+    'cta_email' => 'Invia per email',
+    'whatsapp_text' => 'Ciao! Ho trovato Labieno 39 a un prezzo più basso su Booking. Vi mando lo screenshot per avere il 10% in meno.',
+    'email_subject' => 'Prezzo più basso trovato su Booking',
+  ],
+  'neighborhood_guide' => [
+    'title' => 'Cinecittà e Tuscolano: guida al quartiere',
+    'intro' => 'Labieno 39 è a Cinecittà, nel quadrante sud-est di Roma, lungo la Via Tuscolana: una zona residenziale con la metro A sotto casa, gli studi del cinema a una fermata e il Parco degli Acquedotti a due passi. Ecco cosa sapere prima di arrivare.',
+    'sections' => [
+      [
+        'h' => 'Piazza di Cinecittà e Viale Tito Labieno',
+        'html' => 'Viale Tito Labieno parte da <strong>Piazza di Cinecittà</strong>, dove la Via Tuscolana incrocia il viale e si trova la fermata <strong>Subaugusta</strong> della Metro A. È un quartiere di palazzi anni ’60 e ’70, famiglie e negozi di vicinato: forni, bar, frutterie, supermercati e farmacie si raggiungono a piedi, e a pochi minuti c’è il centro commerciale <strong>Cinecittà Due</strong>. Non è una zona turistica, ed è proprio questo il bello: si vive come un romano e la sera è tranquilla.',
+      ],
+      [
+        'h' => 'Cinecittà: gli studi del cinema italiano',
+        'html' => 'Gli studi di <strong>Cinecittà</strong>, inaugurati nel 1937, sono a una sola fermata di metro (fermata Cinecittà). Qui sono stati girati <em>Ben-Hur</em>, <em>La dolce vita</em> e molti film di Fellini, che lavorava nel leggendario Teatro 5. Il percorso di visita <strong>Cinecittà si Mostra</strong> e il <strong>MIAC</strong>, il Museo Italiano dell’Audiovisivo e del Cinema, sono in Via Tuscolana 1055, aperti tutti i giorni tranne il martedì: prima di andare controlla orari e biglietti sul sito ufficiale.',
+      ],
+      [
+        'h' => 'Il Parco degli Acquedotti',
+        'html' => 'A circa 20 minuti a piedi (oppure una fermata di metro fino a Giulio Agricola) si apre il <strong>Parco degli Acquedotti</strong>, parte del Parco Regionale dell’Appia Antica: circa 240 ettari di prati attraversati dagli archi dell’<strong>Acquedotto Claudio</strong> (I secolo d.C.) e dall’<strong>Acqua Felice</strong> (fine Cinquecento). È qui che si apre <em>La dolce vita</em>, con la statua del Cristo portata in elicottero lungo gli archi, ed è uno dei set di <em>La grande bellezza</em>. Il momento migliore è il tramonto.',
+      ],
+      [
+        'h' => 'Il Quadraro: street art e memoria',
+        'html' => 'Quattro fermate di metro verso il centro, a <strong>Porta Furba-Quadraro</strong>, c’è il Quadraro vecchio, con i murales del <strong>M.U.Ro. – Museo Urban di Roma</strong>, il progetto nato nel 2010 dall’artista David “Diavù” Vecchiato. Si parte da <strong>Via dei Lentuli</strong>. Il quartiere ha una storia forte: i nazisti lo chiamavano “nido di vespe” per la resistenza dei suoi abitanti, e il <strong>17 aprile 1944</strong> quasi mille uomini furono rastrellati e deportati. Un murale di Lucamaleonte in Via del Monte del Grano lo ricorda.',
+      ],
+      [
+        'h' => 'Come muoversi: Metro A',
+        'html' => 'La fermata <strong>Subaugusta</strong> è a <strong>3 minuti a piedi</strong>. Con la Metro A, direzione Battistini, arrivi <strong>senza cambi</strong> a Termini (circa 20 minuti), Piazza della Repubblica, Barberini, <strong>Piazza di Spagna</strong>, Flaminio (Piazza del Popolo) e <strong>Ottaviano</strong>, a pochi passi da San Pietro e dai Musei Vaticani. Per il <strong>Colosseo</strong> cambi a San Giovanni con la Metro C o a Termini con la Metro B: circa mezz’ora in tutto. In direzione Anagnina, una fermata e sei agli studi di Cinecittà.',
+      ],
+      [
+        'h' => 'Come arrivare da aeroporti e Termini',
+        'html' => '<strong>Da Fiumicino:</strong> treno Leonardo Express fino a Termini (circa 32 minuti), poi Metro A direzione Anagnina fino a Subaugusta. In alternativa il treno regionale FL1 fino a Roma Tuscolana e la Metro A da Ponte Lungo. Il taxi impiega 45–60 minuti e si paga a tassametro (la tariffa fissa dall’aeroporto vale solo dentro le Mura Aureliane).<br><strong>Da Ciampino:</strong> bus ATAC 520 fino alla metro Cinecittà (circa 30 minuti), poi una fermata di Metro A direzione Battistini fino a Subaugusta.<br><strong>Da Termini:</strong> Metro A direzione Anagnina, senza cambi, circa 20 minuti fino a Subaugusta.',
+      ],
+    ],
+  ],
+  'v2' => [
+    'title' => 'Dalla porta di casa al centro, con una sola linea',
+    'start' => 'Casa tua a Roma',
+    'walk' => '3 minuti a piedi',
+    'termini' => 'Circa 20 minuti, senza cambi',
+    'center' => 'Piazza di Spagna e San Pietro sulla stessa linea',
+    'place' => 'Cinecittà, Roma',
+    'skip' => 'Vai al contenuto',
+    'photos' => 'Le foto della casa',
+  ],
+  'cinecitta' => [
+    'meta_title' => 'Alloggio vicino a Cinecittà: appartamento per troupe, attori e visitatori',
+    'meta_desc' => 'Appartamento per 4 persone a una fermata di metro dagli studi di Cinecittà e dal MIAC: terrazzo, cucina, Wi‑Fi e soggiorni anche di più settimane. Prenota con il proprietario.',
+    'nav' => 'Vicino a Cinecittà',
+    'hero_title' => 'Un appartamento vicino agli studi di Cinecittà',
+    'hero_lead' => 'Per chi lavora o studia a Cinecittà, per chi gira un film o una serie e per chi viene a visitare i set e il MIAC: a una fermata di metro, con terrazzo e cucina.',
+    'cta_book' => 'Verifica disponibilità',
+    'cta_whatsapp' => 'Scrivici su WhatsApp',
+    'whatsapp_text' => 'Ciao! Lavoro / devo andare a Cinecittà. Vorrei informazioni su Labieno 39.',
+    'sections' => [
+      [
+        'h' => 'Per chi è pensato',
+        'html' => 'Per <strong>troupe, attori, comparse e tecnici</strong> impegnati negli studi di Cinecittà, per studenti di corsi e workshop di cinema, per chi partecipa a casting ed eventi e per chi vuole visitare <strong>Cinecittà si Mostra</strong> e il <strong>MIAC</strong> con calma, senza attraversare tutta Roma.',
+      ],
+      [
+        'h' => 'Come arrivare agli studi',
+        'html' => 'Dalla fermata <strong>Subaugusta</strong>, a 3 minuti da casa, prendi la <strong>Metro A direzione Anagnina</strong>: la fermata successiva è <strong>Cinecittà</strong>, accanto all’ingresso degli studi in Via Tuscolana 1055. A piedi lungo la Via Tuscolana sono circa 15 minuti. Per le convocazioni all’alba è comodo sapere che la prima metro parte intorno alle 5:30.',
+      ],
+      [
+        'h' => 'Visitare Cinecittà si Mostra e il MIAC',
+        'html' => 'Il percorso di visita comprende i set all’aperto, come la Roma antica della serie <em>Rome</em>, le mostre sulla storia degli studi e su Fellini, e il <strong>Museo Italiano dell’Audiovisivo e del Cinema</strong>. Di solito è aperto tutti i giorni tranne il martedì: controlla orari e visite guidate sul sito ufficiale prima di andare.',
+      ],
+      [
+        'h' => 'Perché un appartamento invece di un hotel',
+        'html' => 'Una <strong>cucina attrezzata</strong> per non mangiare sempre fuori dopo lunghe giornate di set, <strong>Wi‑Fi</strong> per lavorare su copioni e montaggi, <strong>aria condizionata</strong>, un <strong>terrazzo privato</strong> per staccare la sera e spazio per <strong>4 persone</strong>, così colleghi o famiglia dividono la spesa. E parli direttamente con il proprietario, anche su WhatsApp.',
+      ],
+      [
+        'h' => 'Soggiorni di più settimane',
+        'html' => 'Le produzioni durano spesso settimane o mesi: scrivici con le date e verifichiamo insieme la disponibilità per un soggiorno prolungato, anche per conto di una casa di produzione.',
+      ],
+      [
+        'h' => 'Il quartiere',
+        'html' => 'Intorno a casa hai supermercati, farmacie, bar e il centro commerciale Cinecittà Due, e la Metro A porta senza cambi a Termini e al centro. Leggi la <a href="{neighborhood_url}">guida al quartiere</a>.',
+      ],
+    ],
+  ],
+];
