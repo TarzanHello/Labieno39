@@ -10,21 +10,14 @@ del calendario in `README_AUTOSYNC.md`.
 
 ## Cose da fare prima di pubblicarlo
 
-### 1. Il dominio (oggi è un segnaposto)
-Il sito usa per ora **www.labieno39.it** come nome provvisorio. Quando hai scelto il dominio vero,
-sostituisci `labieno39.it` in questi 4 file:
-
-1. `lib/config.php` — 3 righe (`allowed_hosts` e `canonical_host`)
-2. `robots.txt` — riga `Sitemap:`
-3. `llms.txt` — tutti i link
-4. `assets/js/cookie-consent.js` — 2 righe con `labieno39.it`
+### 1. Il dominio
+Dominio ufficiale: **www.labieno39.it** (registrato su Aruba). È già impostato in `lib/config.php`,
+`robots.txt`, `llms.txt` e `assets/js/cookie-consent.js`.
 
 ### 2. Dati da inserire nell'area admin
 Dopo il primo accesso a `/admin/login.php` (la password iniziale si trova in `/data/INITIAL_ADMIN_CREDENTIALS.txt`,
 da leggere via FTP e poi cancellare), vai nella scheda **Impostazioni**:
 
-- **CIN** (Codice Identificativo Nazionale di Labieno 39): è obbligatorio per legge su ogni annuncio.
-  Appena lo inserisci compare nel footer e nella home.
 - **N. alloggio per uso turistico** (se ce l'hai).
 - **Link agli annunci** (Booking, Agoda…): uno per riga, aiutano Google a collegare il sito alla struttura.
 - **Coordinate** del portone (da Google Maps: tasto destro sul punto → clic sulle coordinate per copiarle).
@@ -33,7 +26,7 @@ da leggere via FTP e poi cancellare), vai nella scheda **Impostazioni**:
   controllali e adattali a Labieno.
 - **Orario di check-out**: il sito usa le 11:00. Se per Labieno è diverso, cambialo qui.
 
-Già impostati (modificabili): nome "Labieno 39", indirizzo, telefono/WhatsApp +39 328 675 5392,
+Già impostati (modificabili): **CIN IT058091B4PMPCO872** (compare in footer, home e dati strutturati), nome "Labieno 39", indirizzo, telefono/WhatsApp +39 328 675 5392,
 email viaarriano11@gmail.com, massimo 4 ospiti, check-in dalle 14:00.
 
 ### 3. Da verificare nei testi

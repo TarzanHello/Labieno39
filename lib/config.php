@@ -13,10 +13,7 @@ return [
   // Security: restrict which Host headers we consider valid when generating absolute URLs
   // (Stripe redirects, canonical URLs, emails). Adjust if you use a different domain.
   //
-  // >>> DOMINIO SEGNAPOSTO <<<
-  // Il dominio definitivo di Labieno 39 non e' ancora stato scelto.
-  // Quando lo registri, sostituisci 'labieno39.it' qui sotto (3 righe),
-  // in /robots.txt, in /llms.txt e in /assets/js/cookie-consent.js.
+  // Dominio ufficiale di Labieno 39: www.labieno39.it (registrato su Aruba).
   'allowed_hosts' => [
     'labieno39.it',
     'www.labieno39.it',

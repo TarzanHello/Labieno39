@@ -450,8 +450,7 @@ function load_store() {
     'default_lang' => 'it',
     'ga4_id' => '',
     // CIN – Codice Identificativo Nazionale (mandatory on every listing/advert, D.L. 145/2023)
-    // DA COMPILARE da admin -> Impostazioni con il CIN di Labieno 39.
-    'cin' => '',
+    'cin' => 'IT058091B4PMPCO872',
     // Numero di registrazione dell'alloggio per uso turistico (Roma Capitale), se presente.
     'license_num' => '',
   ];
@@ -460,6 +459,12 @@ function load_store() {
     if (!array_key_exists($k, $data['settings'])) {
       $data['settings'][$k] = $v;
     }
+  }
+
+  // CIN is legally required on the site: never leave it empty.
+  if (trim((string)($data['settings']['cin'] ?? '')) === '') {
+    $data['settings']['cin'] = $defaults['cin'];
+    $createdNew = true;
   }
 
   // Hard requirement: keep iCal import sync at 5 minutes
